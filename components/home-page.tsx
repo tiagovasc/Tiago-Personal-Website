@@ -40,17 +40,22 @@ const sections = [
 
     <p>Unfortunately, I was never consistent and persistent enough to know how to code properly. But with modern tools and LLMs, it's quite fun to still be able to solve problems and build small personal projects. I have a few of them in my <a href="https://github.com/tiagovasc" target="_blank" rel="noopener noreferrer">Github</a>.</p>
   ` },
-  { icon: (
+{
+  icon: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
       <path d="M13 3h2v2h2v2H9v4h8v2H9v4h8v2h-2v2h-2v-2h-2v2H9v-2H5v-2h2v-4H5v-2h2V7H5V5h4V3h2v2h2V3zm4 14v-4h2v4h-2zm0-6V7h2v4h-2z" fill="currentColor"/>
     </svg>
-  ), title: 'Crypto', content: `
-    <p>I'm a big believer in crypto, and I've been working in the industry for several years. I believe blockchain technology can help create a better financial system. Digital sovereignty, permissionless access, censorship resistance and trustless software will play a crucial role in the 21 century. I help startups scale their marketing and community growth. I've wrote some articles <a href="https://dazai0x.substack.com/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+  ), 
+  title: 'Crypto', 
+  content: `
+    <p>I&apos;m a big believer in crypto, and I&apos;ve been working in the industry for several years. I believe blockchain technology can help create a better financial system. Digital sovereignty, permissionless access, censorship resistance, and trustless software will play a crucial role in the 21st century. I help startups scale their marketing and community growth. I&apos;ve written some articles <a href="https://dazai0x.substack.com/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
-    <p>I recommend the book "Read Write Own: Building the Next Era of the Internet" by Chris Dixon for a general overview of crypto with a focus on decentralizing the internet and social media.</p>
+    <p>I recommend the book &quot;Read Write Own: Building the Next Era of the Internet&quot; by Chris Dixon for a general overview of crypto with a focus on decentralizing the internet and social media.</p>
 
-    <p>For a more technical perspective of its cryptographic foundations, I suggest <a href="https://www.goodreads.com/book/show/34137265-blockchain-basics" target="_blank" rel="noopener noreferrer">"Blockchain Basics: A Non-Technical Introduction in 25 Steps" by Daniel Drescher</a>.</p>
-  ` },
+    <p>For a more technical perspective of its cryptographic foundations, I suggest <a href="https://www.goodreads.com/book/show/34137265-blockchain-basics" target="_blank" rel="noopener noreferrer">&quot;Blockchain Basics: A Non-Technical Introduction in 25 Steps&quot; by Daniel Drescher</a>.</p>
+  `
+},
+
   { icon: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
       <path d="M10 3H8v2H6v2h2V5h2v2h2v2h-2v2H8v2H6v2H4v-2H2v2h2v2h2v-2h4v2h2v2h-2v2h2v-2h2v-2h-2v-4h2v-2h2v2h2v2h2v-2h2v-2h-2v2h-2v-2h-2V9h2V5h-4v2h-2V5h-2V3z" fill="currentColor"/>
@@ -64,7 +69,7 @@ const sections = [
   ` },
 ]
 
-export default function HomePage() {
+export function HomePageComponent() {
   const [activeSection, setActiveSection] = useState<number | null>(null)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
   const containerRef = useRef<HTMLDivElement>(null)
