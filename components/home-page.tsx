@@ -9,18 +9,18 @@ const sections = [
       <path d="M3 3h8v2H3v12h8V5h2v12h8V5h-8V3h10v16H13v2h-2v-2H1V3h2zm16 7h-4v2h4v-2zm-4-3h4v2h-4V7zm2 6h-2v2h2v-2z" fill="currentColor"/>
     </svg>
   ), title: 'Books', content: `
-    <p>I really like books. I read a variety of non-fiction, but my primary interests are philosophy, psychology and religion. I've read over 450 books so far, and I've wrote a few hundred book reviews.</p>
+    <p>I really like books. I read a variety of non-fiction, but my primary interests are philosophy, psychology and religion. I&apos;ve read over 450 books so far, and I&apos;ve wrote a few hundred book reviews.</p>
 
     <p>I used to post my reviews on <a href="https://www.goodreads.com/tiagofaleiro" target="_blank" rel="noopener noreferrer">GoodReads</a>, but nowadays I mostly post to my <a href="https://www.instagram.com/tiagobooks/" target="_blank" rel="noopener noreferrer">Instagram</a> account where I share books and ideas I find interesting.</p>
 
-    <p>From time to time I also write content that isn't strictly about books, for example about the <a href="https://medium.com/@tiagovf/the-dystopian-horizon-how-ai-challenges-the-fabric-of-society-7ed691317ea1" target="_blank" rel="noopener noreferrer">dangers of AI</a> or <a href="https://tiagovf.medium.com/capturing-knowledge-from-cave-art-to-artificial-intelligence-models-72f819ecd30a" target="_blank" rel="noopener noreferrer">evolution of knowledge management</a>.</p>
+    <p>From time to time I also write content that isn&apos;t strictly about books, for example about the <a href="https://medium.com/@tiagovf/the-dystopian-horizon-how-ai-challenges-the-fabric-of-society-7ed691317ea1" target="_blank" rel="noopener noreferrer">dangers of AI</a> or <a href="https://tiagovf.medium.com/capturing-knowledge-from-cave-art-to-artificial-intelligence-models-72f819ecd30a" target="_blank" rel="noopener noreferrer">evolution of knowledge management</a>.</p>
   ` },
   { icon: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
       <path d="M7 1H5v3H2v2h3v3h2V6h3V4H7V1zm12 1h-7v2h7v10h-6v6H5v-9H3v11h12v-2h2v-2h2v-2h2V2h-2zm-2 16h-2v-2h2v2z" fill="currentColor"/>
     </svg>
   ), title: 'Raven', content: `
-    <p><a href="http://www.ravenotes.com" target="_blank" rel="noopener noreferrer">Raven</a> is an app I'm developing for note-taking. It transforms how people capture, organize, and access knowledge from books⁠. I always struggled with note taking, being very time-consuming and inefficient⁠. So I fixed it.</p>
+    <p><a href="http://www.ravenotes.com" target="_blank" rel="noopener noreferrer">Raven</a> is an app I&apos;m developing for note-taking. It transforms how people capture, organize, and access knowledge from books⁠. I always struggled with note taking, being very time-consuming and inefficient⁠. So I fixed it.</p>
 
     <p>Raven uses AI to automate the note-taking process⁠, creating a well-structured, searchable digital database of personal knowledge⁠.</p>
   ` },
@@ -29,16 +29,16 @@ const sections = [
       <path d="M2 5h14v4h2V7h2V5h2v14h-2v-2h-2v-2h-2v4H2V5zm2 12h10V7H4v10z" fill="currentColor"/>
     </svg>
   ), title: 'Podcast', content: `
-    <p>I have a <a href="https://www.anagogepodcast.com/" target="_blank" rel="noopener noreferrer">podcast</a> about philosophy and psychology. While very neglected recently, it's still something I'm quite proud of, and has been a pleasure to interview people who have been extremely influential in my life, such as <a href="https://www.youtube.com/watch?v=cCaGrBaiGZo" target="_blank" rel="noopener noreferrer">John Vervaeke</a>, <a href="https://www.youtube.com/watch?v=gLwN0Cb3Zk8" target="_blank" rel="noopener noreferrer">Gregory Sadler</a> and <a href="https://www.youtube.com/watch?v=k1ysFfBs87U" target="_blank" rel="noopener noreferrer">Jonathan Pageau</a>.</p>
+    <p>I have a <a href="https://www.anagogepodcast.com/" target="_blank" rel="noopener noreferrer">podcast</a> about philosophy and psychology. While very neglected recently, it&apos;s still something I&apos;m quite proud of, and has been a pleasure to interview people who have been extremely influential in my life, such as <a href="https://www.youtube.com/watch?v=cCaGrBaiGZo" target="_blank" rel="noopener noreferrer">John Vervaeke</a>, <a href="https://www.youtube.com/watch?v=gLwN0Cb3Zk8" target="_blank" rel="noopener noreferrer">Gregory Sadler</a> and <a href="https://www.youtube.com/watch?v=k1ysFfBs87U" target="_blank" rel="noopener noreferrer">Jonathan Pageau</a>.</p>
   ` },
   { icon: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
       <path d="M8 5h2v2H8V5zM6 7h2v2H6V7zM4 9h2v2H4V9zm-2 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 2h2v2H8v-2zm8-12h-2v2h2V5zm2 2h-2v2h2V7zm2 2h-2v2h2V9zm2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2z" fill="currentColor"/>
     </svg>
   ), title: 'GitHub', content: `
-    <p>I have no idea how to code, but I'm nevertheless stubborn enough to try doing a bunch of small projects using the most horrible engineering known to man. I find coding to be one of the beautiful things that people can do. Literally building stuff by yourself using nothing but a computer.</p>
+    <p>I have no idea how to code, but I&apos;m nevertheless stubborn enough to try doing a bunch of small projects using the most horrible engineering known to man. I find coding to be one of the beautiful things that people can do. Literally building stuff by yourself using nothing but a computer.</p>
 
-    <p>Unfortunately, I was never consistent and persistent enough to know how to code properly. But with modern tools and LLMs, it's quite fun to still be able to solve problems and build small personal projects. I have a few of them in my <a href="https://github.com/tiagovasc" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+    <p>Unfortunately, I was never consistent and persistent enough to know how to code properly. But with modern tools and LLMs, it&apos;s quite fun to still be able to solve problems and build small personal projects. I have a few of them in my <a href="https://github.com/tiagovasc" target="_blank" rel="noopener noreferrer">Github</a>.</p>
   ` },
 {
   icon: (
@@ -65,7 +65,7 @@ const sections = [
 
     <p>I wrote some articles about fitness, which you can read <a href="https://linktr.ee/tiagovfitness" target="_blank" rel="noopener noreferrer">here</a>. I also competed in <a href="https://youtube.com/playlist?list=PLYs6oXx5jYhd_lR7Tou2AFIkem7x85CUs&si=WVdonBpPMi-EqxoT" target="_blank" rel="noopener noreferrer">Powerlifting</a> for many years, although I had zero talent for it.</p>
 
-    <p>I retired from coaching a few years ago, but fitness is still a big part of my life and I'm pretty active. I do strength training, bouldering, a bit running, and once in a blue moon cycling.</p>
+    <p>I retired from coaching a few years ago, but fitness is still a big part of my life and I&apos;m pretty active. I do strength training, bouldering, a bit running, and once in a blue moon cycling.</p>
   ` },
 ]
 
@@ -203,4 +203,4 @@ export function HomePageComponent() {
       `}</style>
     </div>
   )
-}
+} 
