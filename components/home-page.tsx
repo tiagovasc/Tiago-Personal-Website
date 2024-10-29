@@ -40,32 +40,31 @@ const sections = [
 
     <p>Unfortunately, I was never consistent and persistent enough to know how to code properly. But with modern tools and LLMs, it&apos;s quite fun to still be able to solve problems and build small personal projects. I have a few of them in my <a href="https://github.com/tiagovasc" target="_blank" rel="noopener noreferrer">Github</a>.</p>
   ` },
-{
-  icon: (
-    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
-      <path d="M13 3h2v2h2v2H9v4h8v2H9v4h8v2h-2v2h-2v-2h-2v2H9v-2H5v-2h2v-4H5v-2h2V7H5V5h4V3h2v2h2V3zm4 14v-4h2v4h-2zm0-6V7h2v4h-2z" fill="currentColor"/>
-    </svg>
-  ), 
-  title: 'Crypto', 
-  content: `
-    <p>I&apos;m a big believer in crypto, and I&apos;ve been working in the industry for several years. I believe blockchain technology can help create a better financial system. Digital sovereignty, permissionless access, censorship resistance, and trustless software will play a crucial role in the 21st century. I help startups scale their marketing and community growth. I&apos;ve written some articles <a href="https://dazai0x.substack.com/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-
-    <p>I recommend the book &quot;Read Write Own: Building the Next Era of the Internet&quot; by Chris Dixon for a general overview of crypto with a focus on decentralizing the internet and social media.</p>
-
-    <p>For a more technical perspective of its cryptographic foundations, I suggest <a href="https://www.goodreads.com/book/show/34137265-blockchain-basics" target="_blank" rel="noopener noreferrer">&quot;Blockchain Basics: A Non-Technical Introduction in 25 Steps&quot; by Daniel Drescher</a>.</p>
-  `
-},
-
+  {
+    icon: (
+      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
+        <path d="M13 3h2v2h2v2H9v4h8v2H9v4h8v2h-2v2h-2v-2h-2v2H9v-2H5v-2h2v-4H5v-2h2V7H5V5h4V3h2v2h2V3zm4 14v-4h2v4h-2zm0-6V7h2v4h-2z" fill="currentColor"/>
+      </svg>
+    ), 
+    title: 'Crypto', 
+    content: `
+      <p>I&apos;m a big believer in crypto, and I&apos;ve been working in the industry for several years. I believe blockchain technology can help create a better financial system. Digital sovereignty, permissionless access, censorship resistance, and trustless software will play a crucial role in the 21st century. I help startups scale their marketing and community growth. I&apos;ve written some articles <a href="https://dazai0x.substack.com/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+  
+      <p>I recommend the book &quot;Read Write Own: Building the Next Era of the Internet&quot; by Chris Dixon for a general overview of crypto with a focus on decentralizing the internet and social media.</p>
+  
+      <p>For a more technical perspective of its cryptographic foundations, I suggest <a href="https://www.goodreads.com/book/show/34137265-blockchain-basics" target="_blank" rel="noopener noreferrer">&quot;Blockchain Basics: A Non-Technical Introduction in 25 Steps&quot; by Daniel Drescher</a>.</p>
+    `
+  },
   { icon: (
     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-16 h-16">
       <path d="M10 3H8v2H6v2h2V5h2v2h2v2h-2v2H8v2H6v2H4v-2H2v2h2v2h2v-2h4v2h2v2h-2v2h2v-2h2v-2h-2v-4h2v-2h2v2h2v2h2v-2h2v-2h-2v2h-2v-2h-2V9h2V5h-4v2h-2V5h-2V3z" fill="currentColor"/>
     </svg>
   ), title: 'Fitness', content: `
-    <p>I was a fitness coach for 10 years. I focused on following evidence-based practices and distilling them to helpful practices. Over the years I helped over 100, bodybuilders, powerlifters, and everyday folks get stronger, bigger, leaner and healthier.</p>
+    <p>I was a fitness coach for 10 years. I focused on following evidence-based practices and distilling them to helpful practices. Over the years I helped over 100 bodybuilders, powerlifters, and everyday folks get stronger, bigger, leaner, and healthier.</p>
 
     <p>I wrote some articles about fitness, which you can read <a href="https://linktr.ee/tiagovfitness" target="_blank" rel="noopener noreferrer">here</a>. I also competed in <a href="https://youtube.com/playlist?list=PLYs6oXx5jYhd_lR7Tou2AFIkem7x85CUs&si=WVdonBpPMi-EqxoT" target="_blank" rel="noopener noreferrer">Powerlifting</a> for many years, although I had zero talent for it.</p>
 
-    <p>I retired from coaching a few years ago, but fitness is still a big part of my life and I&apos;m pretty active. I do strength training, bouldering, a bit running, and once in a blue moon cycling.</p>
+    <p>I retired from coaching a few years ago, but fitness is still a big part of my life and I&apos;m pretty active. I do strength training, bouldering, a bit of running, and once in a blue moon, cycling.</p>
   ` },
 ]
 
@@ -126,7 +125,7 @@ export function HomePageComponent() {
               className="relative w-full h-full flex items-center justify-center"
             >
               <h1 className="text-4xl font-bold relative z-10">
-                Hi, I'm Tiago
+                Hi, I&apos;m Tiago
               </h1>
               <div 
                 className="absolute inset-0"
@@ -203,4 +202,4 @@ export function HomePageComponent() {
       `}</style>
     </div>
   )
-} 
+}
